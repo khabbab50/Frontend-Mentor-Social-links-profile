@@ -1,0 +1,123 @@
+/* ==================================================================================
+font start
+===================================================================================*/
+@font-face {
+  font-family: "Inter-VariableFont_slnt", sans-serif;
+  src: url(../fonts/Inter-VariableFont_slnt\wght.ttf);
+}
+/* ==================================================================================
+font end
+===================================================================================*/
+
+/* ==================================================================================
+univarsel sectior start
+===================================================================================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+  font-family: "Inter-VariableFont_slnt", sans-serif;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+:root {
+  --primary-green-color: hsl(75, 94%, 57%);
+
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 20%);
+  --dark-grey: hsl(0, 0%, 12%);
+  --Offb-black: hsl(0, 0%, 8%);
+}
+/* ==================================================================================
+univarsal sectior end
+===================================================================================*/
+
+/* ==================================================================================
+containt desing start
+===================================================================================*/
+body {
+  max-width: 1440px;
+  padding: 10rem 0;
+  background: var(--Offb-black);
+}
+.wrapper {
+  max-width: 370px;
+  background: var(--dark-grey);
+  padding: 20px;
+  border-radius: 15px;
+  margin: 0 auto;
+  text-align: center;
+}
+.wrapper img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+.wrapper h1 {
+  font-size: 25px;
+  color: var(--white);
+}
+.wrapper h4 {
+  font-weight: bold;
+  color: var(--primary-green-color);
+  margin: 20px 0;
+}
+.wrapper p {
+  color: var(--white);
+}
+.wrapper .buttons {
+  margin: 20px 0;
+}
+.wrapper .buttons a {
+  width: 80%;
+  display: inline-block;
+  margin: 10px 0;
+  background: var(--grey);
+  padding: 10px 0;
+  border-radius: 5px;
+  text-decoration: none;
+  color: var(--white);
+  font-weight: bold;
+}
+.wrapper .buttons a:hover {
+  color: var(--dark-grey);
+  background: var(--primary-green-color);
+}
+/* ==================================================================================
+containt design end
+===================================================================================*/
+
+/* ==================================================================================
+frontendmentor.io start
+===================================================================================*/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+  color: var(--white);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/* ==================================================================================
+frontendmentor.io end
+===================================================================================*/
+
+/* ==================================================================================
+media queri mobile responsive start
+===================================================================================*/
+@media only screen and (max-width: 375) {
+  body {
+    padding: 20px 0;
+  }
+  .wrapper {
+    width: 95%;
+    padding: 5px;
+    margin: 0 5px;
+  }
+}
+/* ==================================================================================
+media queri mobile responsive end
+===================================================================================*/
